@@ -12,7 +12,7 @@ import GlobalStyle from './styles/global';
 import { CustomGlobalStyles } from './styles/custom-global';
 import dark from './styles/theme/dark';
 
-import getLibrary from './utils/getLibrary';
+import {getLibrary} from './utils/web3Provider';
 const Web3ProviderNetwork = createWeb3ReactRoot('NETWORK');
 
 const App: React.FC = () => {
